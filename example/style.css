@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:font1;
+    src:url(font/font1);
+}
+@font-face{
+    font-family:font2;
+    src:url(font/font2);
+}
+@font-face{
+    font-family:font3;
+    src:url(font/font3);
+}
+html,body{font-size:15px;line-height:1.5}
+.container-fluid{
+    background-color:rgb(236, 232, 232);
+}
+
+.header{
+    font-family:font1;
+}
+h1,h2,h3{
+   font-family:'Lato', 'Arial', sans-serrif;
+   text-transform: uppercase;
+}
+h1{
+    font-size: 180%;
+    font-weight:400;
+    padding-top:10px;
+}
+h2{
+    font-size:100%;
+    font-weight:200;
+}
+h3{
+    font-size:120%;
+    font-weight:300;
+    padding-top:10px;
+}
+h4,h5,h6{
+    font-family:font2;
+    font-weight:300;
+    margin:10px 0;
+}
+p{
+    font-family:font3;
+}
+hr{
+    border:0;border-top:1px solid rgb(233, 229, 229);margin:20px 0
+}
+mark{
+    background-color:black;
+    color:white;
+}
+.n-tag{
+    background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center
+}
+.n-white{
+    color:#000;background-color:#fff
+}
+.n-black{
+    color:#fff;background-color:#000
+}
+.n-light-grey{
+    color:#000;background-color:#f0e7e7
+}
+.n-dark-grey{
+    color:#fff;background-color:#696868
+}
+.n-ul{
+    list-style-type:none;padding:0;margin:0
+}
+.n-ul li{
+    padding:8px 16px;border-bottom:1px solid #ddd
+}
+.n-button{
+    text-align: justify;
+    border-radius: 5px;
+}
+.n-row{
+    content:"";display:table;clear:both
+}
+
+.n-col{
+    float:left;width:100%
+}
+.n-content{
+    margin-left:auto;margin-right:auto
+}
+.n-container{
+    padding:0.02em 15px
+}
+.n-card{
+    box-shadow: 12px 12px 12px #888888
+}
+.n-center{
+    text-align: center;
+}
+.n-margin{
+    margin:12px
+}
+.n-margin-top{
+    margin-top:16px
+}
+.n-margin-bottom{
+    margin-bottom:16px
+}
+.n-margin-left{
+    margin-left:16px
+}
+.n-margin-right{
+    margin-right:16px
+}
+.n-padding-small{
+    padding:4px 8px
+}
+.n-padding{
+    padding:8px 16px
+}
+.n-padding-large{
+    padding:12px 24px
+}
+.n-padding-16{
+    padding-top:16px;padding-bottom:16px
+}
+.n-padding-32{
+    padding-top:32px;padding-bottom:32px
+}
+.n-left{
+    float:left
+}
+.n-right{
+    float:right
+}
